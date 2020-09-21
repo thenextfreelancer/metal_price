@@ -28,13 +28,17 @@ Download package.json from this project and copy into metal_price folder, parall
 
 Install `nodemon` and `yarn`
 > npm i nodemon -g
+
 > npm i yarn -g
 
 Install project dependecies mentioned in package.json. Remember, install them locally to the project.
 Go to metal_price filder ad run following:
 > npm install express
+
 > npm install body-parser
+
 > npm install concurrently
+
 > npm install moment
 
 Download server.js from this project and copy into metal_price folder parallel to package.json.
@@ -48,9 +52,9 @@ Now switch over to the `client` directory where our React app lives.
 Add the following line to the `package.json` file created by `create-react-app` insile `client` folder.
 > "proxy": "http://localhost:5000/"
 
-`The key to using an Express back-end server with a project created with create-react-app is to use a proxy. This tells the Web-pack development server to proxy our API requests to our API server, given that our Express server is running on localhost:5000.`
+#### The key to using an Express back-end server with a project created with create-react-app is to use a proxy. This tells the Web-pack development server to proxy our API requests to our API server, given that our Express server is running on localhost:5000.
 
-Download and replace `client/src` folder content and `package.json` from whaevet you have inside src folder created by `create-react-app` boilerplate.
+Replace `client/src` folder content and `client/package.json` created by `create-react-app` boilerplate by downloaded files from this project.
 
 Now, your app is ready to run.
 
@@ -61,7 +65,7 @@ Use following command to run your project
 
 This will launch the React app and run the server at the same time.
 
-Now navigate to http://localhost:3000 and you will hit the React app displaying the message coming from our GET Express route. Nice 🎉!
+Now navigate to http://localhost:3000 and you will see Gold and Silver current and yesterday rates refreshing on 30sec. Nice 🎉!
 
 ### Settings
 We are using https://www.goldapi.io/ which provides free Gold and Silver rates till 500 hits/month.
@@ -71,6 +75,7 @@ So, for testing perpose, we set the frequency of polling to 30s. You may increas
 To use your own API, create your own from https://www.goldapi.io/ then go to `server.js` and change the `x-access-token`
 
 Happy coding!
+
 
 
 Reference: https://medium.com/free-code-camp/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0
