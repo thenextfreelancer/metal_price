@@ -1,0 +1,6 @@
+Current Silver:{"timestamp":1600670365,"metal":"XAG","currency":"INR","exchange":"IDC","symbol":"FX_IDC:XAGINR","prev_close_price":1967.3,"open_price":1956.4,"low_price":1956.4,"high_price":1977.9,"open_time":1600639200,"price":1958.9,"ch":-8.4,"chp":-0.43,"ask":1964.9,"bid":1959.9}
+Current Gold:{"timestamp":1600670365,"metal":"XAU","currency":"INR","exchange":"IDC","symbol":"FX_IDC:XAUINR","prev_close_price":143538.5,"open_price":143219,"low_price":142857.1,"high_price":143763.7,"open_time":1600639200,"price":143079.3,"ch":-459.2,"chp":-0.32,"ask":143111.1,"bid":143101.1}
+
+
+Yesterday Gold:{"date":"","timestamp":0,"metal":"","exchange":"","currency":"","price":0,"prev_close_price":0,"ch":0,"chp":0}
+Yesterday Silver:{"date":"","timestamp":0,"metal":"","exchange":"","currency":"","price":0,"prev_close_price":0,"ch":0,"chp":0}
